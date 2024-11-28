@@ -38,6 +38,7 @@ dependencies {
     testImplementation("io.mockk:mockk:1.13.13")
     testImplementation('org.junit.jupiter:junit-jupiter-api:5.11.3')
     integrationTestImplementation('org.apache.iceberg:iceberg-data:1.6.1')
+    integrationTestImplementation("com.squareup.okhttp3:okhttp:4.12.0")
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.11.3')
     // temporary dependencies so that we can continue running the legacy test suite.
     // eventually we should remove those tests + rely solely on the bulk CDK tests.
