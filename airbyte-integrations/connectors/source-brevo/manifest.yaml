@@ -849,6 +849,7 @@ definitions:
         type: DatetimeBasedCursor
         cursor_field: createdAt
         cursor_datetime_formats:
+          - "%Y-%m-%dT%H:%M:%SZ"
           - "%Y-%m-%dT%H:%M:%S.%fZ"
           - "%Y-%m-%dT%H:%M:%S.%f%z"
         datetime_format: "%s"
